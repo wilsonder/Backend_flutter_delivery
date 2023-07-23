@@ -1,0 +1,33 @@
+{
+  "name": "node-projects",
+  "version": "1.0.0",
+  "description": "Backend de la aplicacion delivery",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flutter",
+    "delivery",
+    "node",
+    "js"
+  ],
+  "author": "Wilson Sierra",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^6.6.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mercadopago": "^1.5.15",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "socket.io": "^2.4.1"
+  }
+}
